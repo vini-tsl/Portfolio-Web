@@ -4,7 +4,7 @@ import { createPortal } from "react-dom";
 
 import helpMuscleImg from "../assets/images/helpmuscle.png";
 import beeMonitorImg from "../assets/images/beemonitor.png";
-import wlLojasImg from "../assets/images/wlproducao.png";
+import auroraLivrariaImg from "../assets/images/auroralivraria.png";
 
 const projects = [
   {
@@ -27,12 +27,12 @@ const projects = [
   },
   {
     id: 3,
-    name: "LC Limpezas",
-    description: "Sistema para controle e registro de vendas.",
+    name: "Aurora Livraria",
+    description: "Sistema para venda de livros.",
     tech: "Flask, HTML, CSS, JavaScript",
-    image: wlLojasImg,
-    site: "",
-    code: "#",
+    image: auroraLivrariaImg,
+    site: "https://aurora-livraria.vercel.app/",
+    code: "https://github.com/vini-tsl/Livraria-Aurora",
   },
 ];
 

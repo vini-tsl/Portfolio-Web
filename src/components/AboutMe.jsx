@@ -198,8 +198,8 @@ function AboutMe() {
 
       {/* CONTADORES */}
       <div className="counters-grid">
-        <Counter value={3} label="Anos estudando" start={startCounters} />
-        <Counter value={12} label="Projetos criados" start={startCounters} />
+        <Counter value={4} label="Anos estudando" start={startCounters} />
+        <Counter value={30} label="Projetos criados" start={startCounters} />
         <Counter value={100} label="Foco em evolução" start={startCounters} />
       </div>
     </div>
